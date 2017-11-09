@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:layout_marginBottom="16sp"
+    android:layout_marginLeft="16sp"
+    android:layout_marginRight="16sp"
+    android:layout_marginTop="32sp">
+
+    <ImageView
+        android:id="@+id/imageUser"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="4sp"
+        android:layout_marginLeft="4sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="4sp"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/labelIme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageUser"
+        android:layout_margin="4sp"
+        android:layout_toEndOf="@+id/imageUser"
+        android:layout_toRightOf="@+id/imageUser"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/labelVrednost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageUser"
+        android:layout_alignLeft="@+id/labelIme"
+        android:layout_alignStart="@+id/labelIme"
+        android:layout_below="@+id/labelIme"
+        android:layout_marginBottom="4sp"
+        android:layout_marginRight="4sp"
+        android:layout_marginTop="4sp" />
+</RelativeLayout>
